@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main() {
-   int sum,n1,n2,avg;
+   int n1,n2,avg;
    
    printf("Input first number:");
    scanf("%d",&n1);
