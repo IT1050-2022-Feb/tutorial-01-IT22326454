@@ -17,7 +17,7 @@ int main() {
    printf("%d ", multiply(no1, no2));
    return 0;
 }
-minimum(int a,b)
+int minimum(int a,int b)
 {
   if(a<b)
   {
@@ -27,7 +27,7 @@ minimum(int a,b)
     return b;
   }
 }
-maximum(int a,b)
+int maximum(int a,int b)
 {
   if(a>b)
   {
@@ -37,7 +37,7 @@ maximum(int a,b)
     return b;
   }
 }
-multiply(int a,b)
+int multiply(int a,int b)
 {
   return a*b;
 }
